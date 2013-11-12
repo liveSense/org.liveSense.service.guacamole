@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-service-guacamole" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-service-guacamole" version="${liveSense.service.guacamole.version}" description="liveSense service guacamole">
+		<bundle>mvn:com.github.livesense/org.liveSense.service.guacamole/${liveSense.service.guacamole.version}</bundle>
+	</feature>
+</features>
