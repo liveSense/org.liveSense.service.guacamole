@@ -92,6 +92,11 @@
 			<groupId>com.github.livesense</groupId>
 			<artifactId>org.liveSense.service.securityManager</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+
 		<!-- OSGi dependencies -->
 		<dependency>
 			<groupId>org.osgi</groupId>
@@ -110,6 +115,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.jcr.api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.sling</groupId>
 			<artifactId>org.apache.sling.commons.osgi</artifactId>
 		</dependency>
 		<dependency>
@@ -121,6 +131,11 @@
 			<groupId>org.apache.sling</groupId>
 			<artifactId>org.apache.sling.auth.core</artifactId>
 			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.sling</groupId>
+			<artifactId>org.apache.sling.commons.osgi</artifactId>
 		</dependency>
 	
 		<dependency>
