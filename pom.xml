@@ -72,7 +72,7 @@
 							SLING-INF/jcr-contents/guacamole=${basedir}/src/main/resources/jcr-contents/guacamole,
 							SLING-INF/ldap-data=${basedir}/src/main/resources/ldap-data,
 							META-INF=${basedir}/target/maven-shared-archive-resources/META-INF,
-							OSGI-INF=${basedir}/target/scr-plugin-generated/OSGI-INF
+							OSGI-INF=${basedir}/target/classes/OSGI-INF
 						</Include-Resource>
 						<ApacheDS-Configuration>
 							SLING-INF/ldap-data
